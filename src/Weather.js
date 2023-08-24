@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-export default function Weather() {
+function Weather() {
   function handleResponse(response) {
     alert(`the tempreture in Tehran is ${response.data.main.temp}`);
   }
@@ -13,3 +13,4 @@ export default function Weather() {
 
   return <h2>hello from weather</h2>;
 }
+export default Weather;
