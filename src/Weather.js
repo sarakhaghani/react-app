@@ -11,5 +11,5 @@ export default function Weather() {
 
   axios.get(url).then(handleResponse);
 
-  return <h2>hello from weather</h2>;
+  return <h2>Hello from weather</h2>;
 }
