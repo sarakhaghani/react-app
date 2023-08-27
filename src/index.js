@@ -1,13 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import "./index.css";
-import Weather from "./Weather";
+import Form from "./Form";
+import Current from "./Current";
+
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Weather />
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <Form />
+          <Current />
+        </div>
+      </div>
+    </div>
   </React.StrictMode>
 );
 
