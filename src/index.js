@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Form from "./Form";
 import Current from "./Current";
+import Link from "./Link";
 
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,6 +20,7 @@ root.render(
           <Form />
           <Current />
         </div>
+        <Link />
       </div>
     </div>
   </React.StrictMode>
